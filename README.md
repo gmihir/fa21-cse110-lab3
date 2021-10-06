@@ -1,1 +1,1 @@
-http://www.mihirgupta.dev/fa21-cse110-lab3/
+http://www.mihirgupta.dev/Lab2/
