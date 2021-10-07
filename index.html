@@ -5,36 +5,44 @@
         <meta charset="UTF-8">
         <meta name="keywords" content="Meeting, Notes, College, Shark">
         <link rel="icon" href="assets/favicon.png">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <header>
             <h1>College Shark Brainstorm Meeting Notes</h1>
             <img src="assets/image.jpg" alt="">
-            <h2>Brainstorm Review</h2>
-            <h3>Friday, 10/1/2021</h3>
+
+            <div id="page-header">
+                <h2>Brainstorm Review</h2>
+                <h3>Friday, 10/1/2021</h3>
+            </div>
         </header>
 
         <main>
             <section>
                 <br>
-                <h3>Attendance List</h3>
-                <ul>
-                    <li>Mihir Gupta</li>
-                    <li>Johnny Appleseed</li>
-                    <li>Michael Williams</li>
-                    <li>Lorem Ipsum</li>
-                </ul>
-
+                <div class="attendance-list">
+                    <h3>Attendance List</h3>
+                    <ul>
+                        <li>Mihir Gupta</li>
+                        <li>Johnny Appleseed</li>
+                        <li>Michael Williams</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
             </section>
 
             <section>
-                <h3>Agenda</h3>
-                <ol>
-                    <li>Review brainstorm meeting notes</li>
-                    <li>Consider sources for college ranking sources (links below)</li>
-                    <li>Discuss implementation ideas</li>
-                    <li>Discuss implementation tools and frameworks</li>
-                </ol>
+                <div class="attendance-list agenda">
+                    <h3>Agenda</h3>
+                    <ol>
+                        <li>Review brainstorm meeting notes</li>
+                        <li>Consider sources for college ranking sources (links below)</li>
+                        <li>Discuss implementation ideas</li>
+                        <li>Discuss implementation tools and frameworks</li>
+                    </ol>
+                </div>
+
             </section>
 
             <section>
@@ -61,7 +69,7 @@
                     <source src="assets/audio.mp3">
                 </audio>
 
-                <div>
+                <div class="audio-caption">
                     <p>Audio from last meeting.</p>
                 </div>
 
@@ -112,10 +120,12 @@
                     Below is a <strong>new proposal</strong> from one of our investors
                     regarding a <em>new feature</em> they want to see.
 
-                    <video controls>
-                        <source src="assets/video.mov" type="video/mp4">
-                    </video>
+
                 </p>
+
+                <video controls>
+                    <source src="assets/video.mov" type="video/mp4">
+                </video>
 
                 <p>
                     We need to discuss this proposal and figure out if we want to move forward.
