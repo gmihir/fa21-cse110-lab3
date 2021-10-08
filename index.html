@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            h3:hover {
+                color: white;
+            }
+        </style>
+
         <title>College Shark Brainstorm Meeting Notes</title>
         <meta charset="UTF-8">
         <meta name="keywords" content="Meeting, Notes, College, Shark">
@@ -12,6 +18,7 @@
             <h1>College Shark Brainstorm Meeting Notes</h1>
             <img src="assets/image.jpg" alt="">
 
+            
             <div id="page-header">
                 <h2>Brainstorm Review</h2>
                 <h3>Friday, 10/1/2021</h3>
@@ -21,97 +28,98 @@
         <main>
             <section>
                 <br>
-                <div class="attendance-list">
-                    <h3>Attendance List</h3>
-                    <ul>
-                        <li>Mihir Gupta</li>
-                        <li>Johnny Appleseed</li>
-                        <li>Michael Williams</li>
-                        <li>Lorem Ipsum</li>
-                    </ul>
+                <div class="subheader">
+                    <div class="attendance-list">
+                        <h3>Attendance List</h3>
+                        <ul>
+                            <li>Mihir Gupta</li>
+                            <li>Johnny Appleseed</li>
+                            <li>Michael Williams</li>
+                            <li>Lorem Ipsum</li>
+                        </ul>
+                    </div>
+    
+                    <div class="attendance-list agenda">
+                        <h3>Agenda</h3>
+                        <ol>
+                            <li>Review brainstorm meeting notes</li>
+                            <li>Consider sources for college ranking sources (links below)</li>
+                            <li>Discuss implementation ideas</li>
+                            <li>Discuss implementation tools and frameworks</li>
+                        </ol>
+                    </div>
+    
+                    <h3>Links (for reference):</h3>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.usnews.com">U.S. News</a>
+                            </li>
+                            <li>
+                                <a href="https://www.princetonreview.com">Princeton Review</a>
+                            </li>
+                            <li>
+                                <a href="http://csrankings.org">CS Rankings</a>        
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
                 </div>
-            </section>
-
-            <section>
-                <div class="attendance-list agenda">
-                    <h3>Agenda</h3>
-                    <ol>
-                        <li>Review brainstorm meeting notes</li>
-                        <li>Consider sources for college ranking sources (links below)</li>
-                        <li>Discuss implementation ideas</li>
-                        <li>Discuss implementation tools and frameworks</li>
-                    </ol>
-                </div>
-
-            </section>
-
-            <section>
-                <h3>Links (for reference)</h3>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="https://www.usnews.com">U.S. News</a>
-                        </li>
-                        <li>
-                            <a href="https://www.princetonreview.com">Princeton Review</a>
-                        </li>
-                        <li>
-                            <a href="http://csrankings.org">CS Rankings</a>        
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-
-            <section>
-                <h3>Unfinished from last meeting</h3>
-
-                <audio controls>
-                    <source src="assets/audio.mp3">
-                </audio>
-
-                <div class="audio-caption">
-                    <p>Audio from last meeting.</p>
-                </div>
-
-                <br>
-
-                <p>There was a discussion <span>regarding</span> the inclusion of <b>SAT and ACT scores</b>, since they are being phased out by various colleges. We need to finalize a path
-                     forward and decide which, if any, of the scores we are including in the metrics we will collect for each college that we will be providing information for.</p>
-
-                <hr>
-
-                <p>Additionally, there was an unfinished discussion on implementation, specifically for <i>noSQL vs. SQL</i>.</p>
                 
-                <details > 
-                    <summary>noSQL vs. SQL Details</summary>
 
-                    <b>noSQL Pros</b>
-                    <ul>
-                        <li>Easier to set up</li>
-                        <li>Cheaper</li>
-                    </ul>
+                    <div class="unfinished-header">
+                        <h3>Unfinished from last meeting</h3>
+                    </div>
 
-                    <b>noSQL Cons</b>
-                    <ul>
-                        <li>Harder to get started (need to learn more)</li>
-                        <li>Complex operations like JOIN may be slower/harder</li>
-                    </ul>
-
-                    <b>SQL Pros</b>
-                    <ul>
-                        <li>Easier to understand</li>
-                        <li>Support for complex db operations</li>
-                    </ul>
-
-                    <b>SQL Cons</b>
-                    <ul>
-                        <li>Schema is not as flexible</li>
-                        <li>Initial setup is more expensive</li>
-                    </ul>
+                    <audio controls>
+                        <source src="assets/audio.mp3">
+                    </audio>
+    
+                    <div class="audio-caption">
+                        <p>Audio from last meeting.</p>
+                    </div>
+    
+                    <br>
+    
+                    <p>There was a discussion <span>regarding</span> the inclusion of <b>SAT and ACT scores</b>, since they are being phased out by various colleges. We need to finalize a path
+                         forward and decide which, if any, of the scores we are including in the metrics we will collect for each college that we will be providing information for.</p>
+    
+                    <hr>
+    
+                    <div class="unfinished">
 
 
-                </details>
-            </section>
+                    <p style="text-decoration: underline;">Additionally, there was an unfinished discussion on implementation, specifically for <i>noSQL vs. SQL</i>:</p>
+                    
+                    <details> 
+                        <summary>noSQL vs. SQL Details</summary>
+    
+                        <b>noSQL Pros</b>
+                        <ul>
+                            <li>Easier to set up</li>
+                            <li>Cheaper</li>
+                        </ul>
+    
+                        <b>noSQL Cons</b>
+                        <ul>
+                            <li>Harder to get started (need to learn more)</li>
+                            <li>Complex operations like JOIN may be slower/harder</li>
+                        </ul>
+    
+                        <b>SQL Pros</b>
+                        <ul>
+                            <li>Easier to understand</li>
+                            <li>Support for complex db operations</li>
+                        </ul>
+    
+                        <b>SQL Cons</b>
+                        <ul>
+                            <li>Schema is not as flexible</li>
+                            <li>Initial setup is more expensive</li>
+                        </ul>
+                    </details>
+                </div>
+
 
             <section>
                 <h3>New business to discuss</h3>
@@ -130,6 +138,11 @@
                 <p>
                     We need to discuss this proposal and figure out if we want to move forward.
                 </p>
+
+
+                <div class="vanish">
+                    <p>Hover for this to vanish!</p>
+                </div>
             </section>
 
             <section>
