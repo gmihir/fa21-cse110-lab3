@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 * {
     background-color: #6699FF; /*  Background color for entire website */
-    font-family: Arial, Helvetica, sans-serif; /* Font family for entire website */
+    font-family: 'Roboto', sans-serif;
+}
+
+a:active {
+    background-color: white;
 }
 
 h1 {
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0px;
     text-align: center;
     text-decoration: underline;
     color: hsl(220, 100%, 30%);
 }
 
 img {
-    border: 0.15pc white;
+    position: static;
+    border: 0.15pc;
+    border-color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -48,7 +58,7 @@ a[href*="com"] {
 }
 
 .audio-caption > p {
-    padding: 5px;
+    padding: 5px 2px 2px 5px;
 }
 
 .audio-caption ~ p {
@@ -65,9 +75,40 @@ p + video {
     margin: auto;
     width: 50%;
     height: 50%;
+    max-width: 10000px;
+    min-width: 100px;
 }
 
 .attendance-list.agenda {
     font-style: italic;
+    margin: 1px 50px 75px 100px;
 }
 
+.vanish {
+    color: white;
+}
+
+.vanish:hover {
+    display: none;
+}
+
+.subheader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.unfinished {
+    display: grid;
+    grid-template-columns: [first] 30% [second] 20%;
+    column-gap: 2px;
+    justify-items: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    * {
+        background-color: white;
+    }
+  }
